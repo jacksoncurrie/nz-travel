@@ -1,0 +1,40 @@
+/* Button to open content */
+
+#openFileButton
+{
+    border: 2px solid #3B3B3B;
+    width: 150px;
+    color: #3B3B3B;
+    text-align: center;
+    padding: 10px 0;
+    margin: 40px auto;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#openFileButton:hover
+{
+    border: 2px solid #00BFFF;
+    color: #00BFFF;
+}
+
+/* Blocks extra information */
+
+.blocks h4
+{
+    color: #f9f1f1;
+    width: 80%;
+    margin: auto;
+    font-weight: 900;
+    font-size: 15px;
+    
+}
+
+/* Error message */
+
+#error
+{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/videos.css">
+
+    <title>Videos</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head> 
+
+<body onscroll="scroll()">
+    <header>
+        <img alt="logo" id="logoImg" src="images/logo.png">
+
+        <div onclick="openNav()" id="openButton"></div>
+    </header>
+
+    <nav id="nav">
+        <div id="closeButton" onclick="closeNav()"></div>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="videos.html" class="active">Videos</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="fiji.html">Fiji</a>
+        <a href="references.html">References</a>
+    </nav>
+
+    <div id="blanket" onclick="closeNav()"></div>
+    
+    <div id="titleImg" style="background-image:url(images/raglan.jpg)">
+        <h1>Videos About New Zealand</h1>
+
+        <a href="gallery.html" class="button">Gallery</a>
+        
+        <div id="downArrow" onclick="moveDown()"></div>
+    </div>
+    
+    <main>
+        <h2>Tourism Music Videos</h2>
+
+        <iframe src="https://www.youtube.com/embed/kWOwe_n-2Gw" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/qHIDGESGh5c" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/fHCemviY06Y" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/JXmq3ZAoofg" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Jackson Currie, 2018.</p>
+    </footer>
+</body>
+</html>

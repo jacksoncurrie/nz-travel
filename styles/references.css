@@ -1,0 +1,50 @@
+/* Add space before bottom */
+
+main
+{
+    padding-bottom: 40px;
+}
+
+/* Text */
+
+h3
+{
+    display: block;
+    color: #3b3b3b;
+    padding-top: 40px;
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+h4
+{
+    color: #3B3B3B;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* Links */
+
+h3 a
+{
+    color: #3b3b3b;
+    text-decoration: none;
+}
+
+h4 a
+{
+    color: #666;
+}
+
+p a
+{
+    color: #666;
+    padding: 5px;
+}
+
+a:hover
+{
+    color: #00BFFF;
+}

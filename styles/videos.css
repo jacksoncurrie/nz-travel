@@ -1,0 +1,14 @@
+/* Video area */
+
+iframe
+{
+    width: 560px;
+    height: 315px;
+    border: none;
+    margin: 50px;
+}
+
+iframe:hover
+{
+    box-shadow: 0 0 0 3px red;
+}

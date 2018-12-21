@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+
+    <title>NZ Travel</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head> 
+
+<body onscroll="scroll()">
+    <header>
+        <img alt="logo" id="logoImg" src="images/logo.png">
+
+        <div id="openButton" onclick="openNav()"></div>
+    </header>
+
+    <nav>
+        <div id="closeButton" onclick="closeNav()"></div> 
+        
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="videos.html">Videos</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="fiji.html">Fiji</a>
+        <a href="references.html">References</a>
+    </nav>
+
+    <div id="blanket" onclick="closeNav()"></div>
+    
+    <div id="titleImg" style="background-image:url(images/mount.jpg)">
+        <h1>Welcome to New Zealand</h1>
+
+        <a href="about.html" class="button">About</a>
+
+        <div id="downArrow" onclick="moveDown()"></div>
+    </div>
+
+    <main>
+        <a href="about.html" class="link" style="background-image:url(images/links/ruapehu.jpg)">
+            <h3>About</h3>
+            <p>What tourism in New Zealand?</p>
+        </a>
+
+        <a href="attractions.html" class="link" style="background-image:url(images/links/mount-sunset.jpg)">
+            <h3>Attractions</h3>
+            <p>Some attractions in New Zealand</p>
+        </a>
+
+        <a href="videos.html" class="link" style="background-image:url(images/links/raglan.jpg)">
+            <h3>Videos</h3>
+            <p>Music Videos on New Zealand</p>
+        </a>
+
+        <a href="gallery.html" class="link" style="background-image:url(images/links/geogia-beach5.jpg)">
+            <h3>Gallery</h3>
+            <p>Photos from around New Zealand</p>
+        </a>
+
+        <a href="fiji.html" class="link" style="background-image:url(images/links/fiji.jpg)">
+            <h3>Fiji</h3>
+            <p>Why I want to go to Fiji</p>
+        </a>
+
+        <a href="references.html" class="link" style="background-image:url(images/links/river.JPG)">
+            <h3>References</h3>
+            <p>References to the media used</p>
+        </a>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Jackson Currie, 2018.</p>
+    </footer>
+</body>
+</html>

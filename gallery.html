@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css'> 
+	<link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css'>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script>
+    <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){ 
+            jQuery("#gallery").unitegallery(); 
+        }); 
+    </script>
+
+    <title>Gallery</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head> 
+
+<body onscroll="scroll()">
+    <header>
+        <img alt="logo" id="logoImg" src="images/logo.png">
+
+        <div onclick="openNav()" id="openButton"></div>
+    </header>
+
+    <nav id="nav">
+        <div id="closeButton" onclick="closeNav()"></div>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="videos.html">Videos</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="fiji.html">Fiji</a>
+        <a href="references.html">References</a>
+    </nav>
+
+    <div id="blanket" onclick="closeNav()"></div>
+    
+    <div id="titleImg"  style="background-image:url(images/geogia-beach5.jpg)">
+        <h1>Photos of New Zealand</h1>
+
+        <a href="Fiji.html" class="button">Fiji</a>
+
+        <div id="downArrow" onclick="moveDown()"></div>
+    </div>
+
+    <main>
+        <h2>Travel Gallery</h2>
+
+        <div id="gallery" style="display:none;margin:50px auto">
+		
+			<img alt="Image 1 Title" src="images/gallery/thumbs/bay-of-islands.jpg"
+				data-image="images/gallery/bay-of-islands.jpg"
+				data-description="The Bay of Islands">
+			
+			<img alt="Image 2 Title" src="images/gallery/thumbs/bay-of-plenty.jpg"
+				data-image="images/gallery/bay-of-plenty.jpg"
+                data-description="The Bay of Plenty">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/coromandel.jpg"
+				data-image="images/gallery/coromandel.jpg"
+                data-description="The Coromandel">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/geogia-beach5.jpg"
+				data-image="images/gallery/geogia-beach5.jpg"
+                data-description="Orokawa Beach">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/mount.jpg"
+				data-image="images/gallery/mount.jpg"
+                data-description="Mount Maunganui">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/mount-sunset.jpg"
+				data-image="images/gallery/mount-sunset.jpg"
+                data-description="Sunrise on the beach">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/nelson.jpg"
+				data-image="images/gallery/nelson.jpg"
+                data-description="Nelson">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/fiji.jpg"
+				data-image="images/gallery/fiji.jpg"
+                data-description="Fiji">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/raglan.jpg"
+				data-image="images/gallery/raglan.jpg"
+                data-description="Sunset at Raglan">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/river.JPG"
+				data-image="images/gallery/river.JPG"
+                data-description="River near Waihi">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/rotorua.jpg"
+				data-image="images/gallery/rotorua.jpg"
+                data-description="Rotorua spa">
+                
+            <img alt="Image 2 Title" src="images/gallery/thumbs/ruapehu.jpg"
+				data-image="images/gallery/ruapehu.jpg"
+				data-description="Mount Ruapehu">
+		
+		</div>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Jackson Currie, 2018.</p>
+    </footer>
+</body>
+</html>

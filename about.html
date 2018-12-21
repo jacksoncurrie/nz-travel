@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/blocks.css">
+
+    <title>About</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head>
+
+<body onscroll="scroll()">
+    <header>
+        <img alt="logo" id="logoImg" src="images/logo.png">
+
+        <div onclick="openNav()" id="openButton"></div>
+    </header>
+
+    <nav>
+        <div id="closeButton" onclick="closeNav()"></div>
+
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="videos.html">Videos</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="fiji.html">Fiji</a>
+        <a href="references.html">References</a>
+    </nav>
+
+    <div id="blanket" onclick="closeNav()"></div>
+    
+    <div id="titleImg" style="background-image:url(images/ruapehu.jpg)">
+        <h1>About New Zealand Tourism</h1>
+
+        <a href="attractions.html" class="button">Attractions</a>
+        
+        <div id="downArrow" onclick="moveDown()"></div>
+    </div>
+
+    <main>
+        <h2>Destinations in New Zealand</h2>
+        <p>Links to www.newzealand.com</p>
+
+        <a href="https://www.newzealand.com/int/bay-of-islands" class="blocks" style="background-image:url(images/destinations/bay-of-islands.jpg)">
+            <h3>Bay of Islands</h3>
+            <p>The Bay of Islands is a subtropical micro-region known for its stunning beauty & history. For those that love beaches and water activities, it's paradise.</p>
+        </a>
+
+        <a href="https://www.newzealand.com/int/coromandel" class="blocks" style="background-image:url(images/destinations/coromandel.jpg)">
+            <h3>Coromandel</h3>
+            <p>The Coromandel, renowned for its pristine beaches, misty forests and laid-back vibe, is one of New Zealand's most popular holiday destinations.</p>
+        </a>
+
+        <a href="https://www.newzealand.com/int/bay-of-plenty" class="blocks" style="background-image:url(images/destinations/bay-of-plenty.jpg)">
+            <h3>Bay of Plenty</h3>
+            <p>The Bay of Plenty region is home to spectacular beaches, juicy kiwifruit and New Zealand's only active marine volcano.</p>
+        </a>
+
+        <a href="https://www.newzealand.com/int/rotorua" class="blocks" style="background-image:url(images/destinations/rotorua.jpg)">
+            <h3>Rotorua</h3>
+            <p>Rotorua is known for bubbling mud pools, shooting geysers and natural hot springs, as well as showcasing our fascinating Maori culture.</p>
+        </a>
+
+        <a href="https://www.newzealand.com/int/nelson" class="blocks" style="background-image:url(images/destinations/nelson.jpg)">
+            <h3>Nelson</h3>
+            <p>The best way to describe Nelson Tasman is a 'lifestyle'. Situated at the top north-west of the South Island, it is the sunniest region in New Zealand.</p>
+        </a>
+
+        <a href="https://www.newzealand.com/int/queenstown" class="blocks" style="background-image:url(images/destinations/queenstown.jpg)">
+            <h3>Queenstown</h3>
+            <p>Queenstown is one of New Zealand's top visitor destinations and if you come to the region you'll understand why.</p>
+        </a>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Jackson Currie, 2018.</p>
+    </footer>
+</body>
+</html>

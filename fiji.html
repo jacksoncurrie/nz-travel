@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en-NZ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jackson Currie">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="text/javascript" src="scripts/main.js" defer></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/blocks.css">
+
+    <title>Fiji</title>
+    <link rel="icon" type="image/png" href="images/icon.png">
+</head> 
+
+<body onscroll="scroll()">
+    <header>
+        <img alt="logo" id="logoImg" src="images/logo.png">
+
+        <div onclick="openNav()" id="openButton"></div>
+    </header>
+
+    <nav id="nav">
+        <div id="closeButton" onclick="closeNav()"></div>
+        
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="attractions.html">Attractions</a>
+        <a href="videos.html">Videos</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="fiji.html" class="active">Fiji</a>
+        <a href="references.html">References</a>
+    </nav>
+
+    <div id="blanket" onclick="closeNav()"></div>
+    
+    <div id="titleImg" style="background-image:url(images/fiji.jpg)">
+        <h1>Fiji Tourism</h1>
+
+        <a href="references.html" class="button">References</a>
+
+        <div id="downArrow" onclick="moveDown()"></div>
+    </div>
+
+    <main>
+        <h2>Places I want to see.</h2>
+        <p>Links to www.fiji.travel</p>
+
+        <a href="https://www.fiji.travel/nz/destinations/denarau-island" class="blocks" style="background-image:url(images/fiji/denarau.jpg)">
+            <h3>Denarau Island</h3>
+            <p>
+                Attached to the mainland by a short causeway, Denarau is the place to be pampered. Less than 10km from Nadi, Denarau boasts eight large resorts, stunning beaches and an 18-hole championship golf course. Luxury suites, sparkling swimming pools, world-class cuisine, shopping and adventure options – Denarau has it all.
+            </p>
+        </a>
+
+        <a href="https://www.fiji.travel/nz/destinations/mamanuca-islands" class="blocks" style="background-image:url(images/fiji/mamanuca.jpg)">
+            <h3>Mamanuca Islands</h3>
+            <p>
+                The Mamanucas are a great spot for water sports of all kinds, from family-friendly snorkelling to discovering famous dive sites, or riding one of the best surf breaks in the world. Whether you’re looking for a relaxing break, an affordable holiday or some family time, there’s an island in the Mamanucas for everyone.
+            </p>
+        </a>
+
+        <a href="https://www.fiji.travel/nz/destinations/coral-coast" class="blocks" style="background-image:url(images/fiji/coral.jpg)">
+            <h3>Coral Coast</h3>
+            <p>
+                Korolevu, on the banks of the Sigatoka River, is the birthplace of tourism in Fiji, with the Korolevu Beach Hotel first opening in the 1950s. Today, the Coral Coast is well known for its family-friendly resorts, hotels and popular backpackers. The coast is also home to many local villages where you can get a glimpse of the real Fiji.
+            </p>
+        </a>
+
+        <a href="https://www.fiji.travel/nz/destinations/lau-islands" class="blocks" style="background-image:url(images/fiji/lau.jpg)">
+            <h3>Lau Islands</h3>
+            <p>
+                Life here is simple and a bit wild, with no restaurants and only three islands that have accommodation for visitors. Venture off the beaten track to experience a place that’s utterly unspoiled and rich in unique culture, while still offering traditional Fijian hospitality.
+            </p>   
+        </a>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; Jackson Currie, 2018.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+/* Blocks of information */
+
+.blocks
+{
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    margin: 50px;
+    text-decoration: none;
+}
+
+/* Text for blocks */
+
+.blocks h3
+{
+    color: #f9f1f1;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 30px;
+    
+}
+
+.blocks p
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #f9f1f1;
+    transition: 300ms;
+    opacity: 0;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    font-weight: 900;
+    border: 2px solid #f9f1f1;
+    transform: scale(0.95, 0.95);
+}
+
+/* Zoom text on hover */
+
+.blocks:hover p
+{
+    transform: scale(1, 1);
+    opacity: 1;
+    transition: 300ms ease-out;
+}
